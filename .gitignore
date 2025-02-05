@@ -1,0 +1,30 @@
+# exclude everything
+
+
+./Release/*
+Release/Symplast.app.dSYM.zip
+Release/Symplast.ipa
+Release_iTunes/Symplast.app.dSYM.zip
+Release_iTunes/Symplast.ipa
+./Symplast.xcworkspace/*
+.DS_Store
+*.bcsymbolmap
+*.dSYM
+TwilioVideo.framework
+Carthage/*
+# User data
+xcuserdata
+*xccheckout
+*xcworkspacedata
+xcsharedata
+IDEWorkspaceChecks.plist
+Swagger/PracticeAppServices/source
+Swagger/PracticeAppServices/tmp
+Swagger/SecureMessagingServices/source
+Swagger/SecureMessagingServices/tmp
+Swagger/SymplastServices/source
+Swagger/SymplastServices/tmp
+Swagger/FinancialServices/source
+Swagger/FinancialServices/tmp
+
+fastlane/report.xml
